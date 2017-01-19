@@ -135,31 +135,21 @@ document.getElementById("q9").innerHTML = output;
 //    If the score is below 59, output to the HTML page "Very bad: study more and retake the test".
 //    Test to make sure each condition is met properly.
 
-var score = 74;
+var score = 84
 
 if (score >= 90) {
-  var output = "Great job"
-
-} else if (score 60 && 89) {
-  var output = "Nice work, keep practicing"
+  var output = 'Great job';
 }
-else if (score<59) {
-  var output = "Very bad: study more and retake the test".
+   else if (score >= 60 && score <= 89) {
+  var output = 'Nice work, keep practicing';
 }
 
+else if (score <= 59) {
+  var output =  'Very bad: study more and retake the test';
 
+}
+document.getElementById('q10').innerHTML = output;
 
-document.getElementById("q10").innerHTML = output;
-
-
-
-
-
-// ADVANCED TRACK
-
-// A. Ask for a user's name, age and city using input fields.
-//    In a single command, take the user's answers and display into the HTML page the sentence:
-//   "My name is __. I'm __ years old, and I live in __."
 
 
 
