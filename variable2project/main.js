@@ -1,14 +1,3 @@
-
-** Week 1 - Project 2 **
-
-Below are a number of problems for you to solve
-using JS. The JS code can be written below each
-problem.
-
-=======================================================
-*/
-
-
 // 1. Connect the main.js document to the HTML page.
 //    Then Update the Text to Green by adding the .status-good class.
 
