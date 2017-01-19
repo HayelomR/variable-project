@@ -100,6 +100,10 @@ document.getElementById("callAlert").addEventListener("click", function() {
 // 8. Collect a number value from the user and when a button is clicked,
 //    then double user's answer and display that value into the HTML page.
 
+document.getElementById("callDoubleNum").addEventListener("click", function() {
+  var message = document.getElementById("Double number").message;
+document.getElementById("q8").innerHTML = "message";
+});
 
 
 
@@ -113,9 +117,14 @@ document.getElementById("callAlert").addEventListener("click", function() {
 //    If so, output to the HTML page: Yes, the value of num1 is greater than num2
 //    If not, output to the HTML page: No, the value of num1 is not greater than num2
 
+var num = 5;
+if (num > 10) {
+  var output = 'yes,the value of 10 is greater than 5  ';
+} else {
+  var output = 'No, the value of 5 is not greater than 10';
+}
 
-
-
+document.getElementById("q9").innerHTML = output;
 
 
 
@@ -126,7 +135,19 @@ document.getElementById("callAlert").addEventListener("click", function() {
 //    If the score is below 59, output to the HTML page "Very bad: study more and retake the test".
 //    Test to make sure each condition is met properly.
 
+var score = 74;
 
+if (score >= 90) {
+  var output = 'Great job';
+}
+   else if (score >= 60&& score<=89) {
+  var output = "Nice work, keep practicing";
+}
+else if (score <= 59) {
+  var output =  "Very bad: study more and retake the test".
+  }
+
+document.getElementById("q10").innerHTML = output;
 
 
 
