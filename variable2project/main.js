@@ -138,14 +138,16 @@ document.getElementById("q9").innerHTML = output;
 var score = 74;
 
 if (score >= 90) {
-  var output = 'Great job';
+  var output = "Great job"
+
+} else if (score 60 && 89) {
+  var output = "Nice work, keep practicing"
 }
-   else if (score >= 60&& score<=89) {
-  var output = "Nice work, keep practicing";
+else if (score<59) {
+  var output = "Very bad: study more and retake the test".
 }
-else if (score <= 59) {
-  var output =  "Very bad: study more and retake the test".
-  }
+
+
 
 document.getElementById("q10").innerHTML = output;
 
