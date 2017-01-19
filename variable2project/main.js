@@ -1,5 +1,4 @@
-*
-=======================================================
+
 ** Week 1 - Project 2 **
 
 Below are a number of problems for you to solve
@@ -112,10 +111,7 @@ document.getElementById("callAlert").addEventListener("click", function() {
 // 8. Collect a number value from the user and when a button is clicked,
 //    then double user's answer and display that value into the HTML page.
 
-document.getElementById("callDoubleNum").addEventListener("click", function() {
-var message = "Double Number"
-document.getElementById("q8").innerHTML = message;
-});
+
 
 
 
