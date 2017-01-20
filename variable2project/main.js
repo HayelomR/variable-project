@@ -64,7 +64,7 @@ document.getElementById('q4d').innerHTML = d;
 //    Display the value of the third variable within the HTML page.
 var actor = "Brad";
 var actress = "Gelina"
-var marriage = actor + actress;
+var marriage = actor +  actress;
 document.getElementById('q5').innerHTML = marriage;
 
 
@@ -101,8 +101,9 @@ document.getElementById("callAlert").addEventListener("click", function() {
 //    then double user's answer and display that value into the HTML page.
 
 document.getElementById("callDoubleNum").addEventListener("click", function() {
-  var message = document.getElementById("Double number").message;
-document.getElementById("q8").innerHTML = "message";
+  var value = document.getElementById('doubleNum').value;
+  var message = value*2;
+document.getElementById("q8").innerHTML = message;
 });
 
 
